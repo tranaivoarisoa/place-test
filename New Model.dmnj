@@ -1,0 +1,167 @@
+{
+  "diagramId": "_4d3bd57d-504c-4251-8e8d-e0884727cf1a",
+  "modelVersion": 5.21,
+  "properties": {
+    "targetNamespace": "http://www.trisotech.com/definitions/_4d3bd57d-504c-4251-8e8d-e0884727cf1a",
+    "name": "New Model.json",
+    "author": "",
+    "creationdate": "",
+    "modificationdate": "",
+    "exporter": "DMN Web Modeler",
+    "message": [],
+    "error": [],
+    "interface": [],
+    "defaultLanguage": "en",
+    "expressions": []
+  },
+  "extendedProperties": {
+    "selectedTabId": "_de8fc92c-5580-4dc2-b17a-6bd0742a7681",
+    "selectedTabTypeId": "diagram",
+    "logoChoice": "Default",
+    "customLogo": null,
+    "logoWidth": "230",
+    "logoHeight": "88"
+  },
+  "itemModelElements": {
+    "bottomTab": [
+      {
+        "resourceId": "_949af401-1f2f-47b8-aa88-3c385a16efd8",
+        "properties": {
+          "ref": "_de8fc92c-5580-4dc2-b17a-6bd0742a7681",
+          "tabType": "diagram",
+          "isSelected": true
+        },
+        "stencil": {
+          "id": "bottomTab"
+        },
+        "itemModelElements": {}
+      }
+    ]
+  },
+  "nodeModelElements": [
+    {
+      "resourceId": "_2ca4d8c6-5555-4e49-a7bf-00415b569292",
+      "properties": {
+        "name": "Page 1",
+        "extensionElements": []
+      },
+      "stencil": {
+        "id": "DMNDiagram"
+      },
+      "nodeModelElements": [],
+      "attachedNodeRefs": []
+    },
+    {
+      "resourceId": "_4d3bd57d-504c-4251-8e8d-e0884727cf1a_DS",
+      "properties": {
+        "name": "Whole Model Decision Service",
+        "displayName": "",
+        "triso:readOnly": "",
+        "documentation": "",
+        "extensionElements": [],
+        "label": "",
+        "variable": {
+          "name": "",
+          "label": "",
+          "displayName": "",
+          "triso:readOnly": "",
+          "documentation": "",
+          "extensionElements": [],
+          "id": "_4d3bd57d-504c-4251-8e8d-e0884727cf1a_DS_VAR",
+          "typeRef": "feel:Any",
+          "attachment": "",
+          "details": "",
+          "customAttributes": "",
+          "tags": "",
+          "notes": "",
+          "semanticLinks": "",
+          "copyOfLink": "",
+          "reuseLink": "",
+          "comments": ""
+        },
+        "outputDecisionRefs": [],
+        "encapsulatedDecisionRefs": [],
+        "inputDecisionRefs": [],
+        "inputDataRefs": [],
+        "triso:dynamicDecisionService": true,
+        "triso:wholeModelService": true
+      },
+      "stencil": {
+        "id": "DecisionService"
+      },
+      "nodeModelElements": [],
+      "attachedNodeRefs": []
+    },
+    {
+      "resourceId": "_de8fc92c-5580-4dc2-b17a-6bd0742a7681_DS",
+      "properties": {
+        "name": "Diagram Page 1",
+        "displayName": "",
+        "triso:readOnly": "",
+        "documentation": "",
+        "extensionElements": [],
+        "label": "",
+        "variable": {
+          "name": "",
+          "label": "",
+          "displayName": "",
+          "triso:readOnly": "",
+          "documentation": "",
+          "extensionElements": [],
+          "id": "_de8fc92c-5580-4dc2-b17a-6bd0742a7681_DS_VAR",
+          "typeRef": "feel:Any",
+          "attachment": "",
+          "details": "",
+          "customAttributes": "",
+          "tags": "",
+          "notes": "",
+          "semanticLinks": "",
+          "copyOfLink": "",
+          "reuseLink": "",
+          "comments": ""
+        },
+        "outputDecisionRefs": [],
+        "encapsulatedDecisionRefs": [],
+        "inputDecisionRefs": [],
+        "inputDataRefs": [],
+        "triso:dynamicDecisionService": true
+      },
+      "stencil": {
+        "id": "DecisionService"
+      },
+      "nodeModelElements": [],
+      "attachedNodeRefs": []
+    }
+  ],
+  "edgeModelElements": [],
+  "pages": [
+    {
+      "resourceId": "_de8fc92c-5580-4dc2-b17a-6bd0742a7681",
+      "properties": {
+        "fontcolor": ""
+      },
+      "stencil": {
+        "id": "DMNDiagram"
+      },
+      "outgoingRefs": [],
+      "modelElementRef": "_2ca4d8c6-5555-4e49-a7bf-00415b569292",
+      "bounds": {
+        "upperLeft": {
+          "x": 0,
+          "y": 0
+        },
+        "lowerRight": {
+          "x": 1485,
+          "y": 1050
+        }
+      },
+      "extendedProperties": {
+        "collaborationId": "_16f5a241-b704-4d5a-b1aa-2f21004f3623",
+        "contentId": "_8c98e703-e148-4008-b251-b3509ac2bbe3"
+      },
+      "childShapes": []
+    }
+  ],
+  "includedModels": [],
+  "includedImportedModels": []
+}
